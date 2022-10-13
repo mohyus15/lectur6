@@ -10,8 +10,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class libraryServerTest {
     @Test
 
-    void shouldServerHomePage() throws IOException {
+    void shouldServerHomePage() throws Exception {
         var server = new ServerLibrary(0);
+        server.start();
      var con =(HttpURLConnection) server.getURL().openConnection();
      assertThat(con.getResponseCode())
              .as(con.getResponseMessage() + " for " + con.getURL())
