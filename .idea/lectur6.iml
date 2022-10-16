@@ -76,6 +76,7 @@
     <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util:8.0.36" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.0.36" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.3" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.json:jakarta.json-api:2.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.logevents:logevents:0.3.3" level="project" />
   </component>
 </module>
