@@ -46,6 +46,36 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:11.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-xml:11.0.12" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:11.0.12" level="project" />
+    <orderEntry type="library" name="Maven: com.att.nsa:nsaServerLibrary:1.0.10" level="project" />
+    <orderEntry type="library" name="Maven: javax.mail:mail:1.4" level="project" />
+    <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.att.nsa:saToolkit:0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: jline:jline:2.12.1" level="project" />
+    <orderEntry type="library" name="Maven: com.att.nsa:cambriaClient:0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.att.nsa:saClientLibrary:0.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient-cache:4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20131018" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.velocity:velocity:1.7" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-catalina:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-servlet-api:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jsp-api:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-el-api:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-juli:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-annotations-api:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-api:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-jni:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-coyote:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util-scan:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat:tomcat-util:8.0.36" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.0.36" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:2.0.3" level="project" />
+    <orderEntry type="library" name="Maven: org.logevents:logevents:0.3.3" level="project" />
   </component>
 </module>

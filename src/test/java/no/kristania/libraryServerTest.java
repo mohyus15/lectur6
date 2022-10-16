@@ -3,6 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
+import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -20,5 +21,19 @@ public class libraryServerTest {
         assertThat(con.getErrorStream())
                 .asString(StandardCharsets.UTF_8)
                 .contains("<h1>kristinaia libray</h1>");
+    }
+
+    @Test
+
+    void shoudListBooks() throws Exception {
+        var server = new ServerLibrary(0);
+        server.start();
+        var con =(HttpURLConnection) new URL(server.getURL(),"/api/books").openConnection();
+        assertThat(con.getResponseCode())
+                .as(con.getResponseMessage() + " for " + con.getURL())
+                .isEqualTo(200);
+        assertThat(con.getErrorStream())
+                .asString(StandardCharsets.UTF_8)
+                .contains("{\"titel\":\"java in a a nutshell\"");
     }
 }
