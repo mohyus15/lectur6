@@ -27,14 +27,8 @@ public class ListBooksServerlet extends HttpServlet {
                     .add("author",book.getAuthor())
             );
 
-        ;
-            resp.getWriter().write("[");
-            resp.getWriter().write("\\title\":\"" + book.getTitle() + "\"");
-            resp.getWriter().write("\\author\":\"" + book.getAuthor() + "\"");
-
-            resp.getWriter().write("]");
         }
-        resp.getWriter().write("]");
-        result.build().toString();
+        resp.getWriter().write( result.build().toString());
+
     }
 }
