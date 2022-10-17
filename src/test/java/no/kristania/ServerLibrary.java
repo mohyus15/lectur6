@@ -12,11 +12,11 @@ public class ServerLibrary {
     private final Server server;
 
     public  ServerLibrary(int port) {
-        this.server  = new Server();
+        this.server  = new Server(port);
         WebAppContext webContext = new WebAppContext();
         webContext.setContextPath("/");
         webContext.setBaseResource(Resource.newClassPathResource("/webapp"));
-        webContext.addServlet(new ServletHolder(new ListBooksServerlet()),"/api/book");
+        webContext.addServlet(new ServletHolder(new ListBooksServerlet()),"/api/books");
         server.setHandler(webContext);
 
 
